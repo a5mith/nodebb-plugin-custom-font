@@ -1,0 +1,32 @@
+{
+  "name": "nodebb-plugin-custom-font",
+  "version": "0.0.1",
+  "description": "NodeBB Custom Font Plugin",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a5mith/nodebb-plugin-custom-font"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "custom-font",
+    "custom",
+    "font"
+  ],
+  "author": {
+    "name": "a5mith",
+    "email": "35hzcommunity@gmail.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/a5mith/nodebb-plugin-custom-font/issues"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "_id": "nodebb-plugin-custom-font@0.0.1",
+  "_from": "nodebb-plugin-custom-font@~0.0.1"
+}

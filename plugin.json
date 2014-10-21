@@ -1,0 +1,15 @@
+{
+	"id": "nodebb-plugin-custom-font",
+	"name": "NodeBB Custom Font",
+	"description": "NodeBB Plugin that allows users to specify a custom font. (Fork Only - No NPM - Read Documentation)",
+	"url": "https://github.com/a5mith/nodebb-plugin-custom-font",
+	"library": "./library.js",
+	"hooks": [
+        { "hook": "filter:post.parse", "method": "parse", "callbacked": true }	],
+	"staticDirs": {
+        "static": "./src"
+    },
+    "less": [
+        "src/style.less"
+    ]
+}
